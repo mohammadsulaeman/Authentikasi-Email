@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ForgotPassActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silakan Masukkan Email Anda Di Bawah Sini"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/emailPass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounder_edit_text"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textAlignment="center"
+        android:textSize="19dp"/>
+    <Button
+        android:id="@+id/lupapassBtn"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round"
+        android:layout_marginTop="16dp"
+        android:text="Lupa Password"/>
+    <TextView
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali Login"
+        android:layout_marginTop="10dp"
+        android:textSize="21dp"
+        android:textColor="#000"/>
+</LinearLayout>

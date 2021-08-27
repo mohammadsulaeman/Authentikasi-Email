@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silakan buat akun anda terlebih dahulu"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/emailreg"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="15dp"
+        android:hint="Email"
+        android:background="@drawable/rounder_edit_text"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textColorHint="#000"
+        android:textSize="19dp"/>
+    <EditText
+        android:id="@+id/passwordReg"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="16dp"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:background="@drawable/rounder_edit_text"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="19dp"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:text="Register "
+        android:background="@drawable/button_round"
+        android:textColor="#000"/>
+</LinearLayout>
